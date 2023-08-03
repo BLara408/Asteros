@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
         set {
             print(health);
             health = value;
-            print("Taken damage");
+      
             if(health <= 0) {
                 Defeated();
             }
@@ -27,7 +27,6 @@ public class Enemy : MonoBehaviour
     }
 
     public void Defeated(){
-        print("defeated");
         animator.SetTrigger("Defeated");
     }
 

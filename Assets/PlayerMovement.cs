@@ -134,8 +134,11 @@ public class PlayerController : MonoBehaviour
     }
 
     public void EndDashAttack(){
+        print("End dash attack called");
         UnlockMovement();
+        print("End dash attack called");
         rb.velocity = Vector2.zero;
+        print("End dash attack called");
         dashAttack.StopAttack();
     }
 
