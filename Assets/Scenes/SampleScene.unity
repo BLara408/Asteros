@@ -4561,6 +4561,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 973678743029933543}
     - target: {fileID: 2652746682438432023, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
+      propertyPath: dashDistance
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2652746682438432023, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
       propertyPath: enemyLayer.m_Bits
       value: 1
       objectReference: {fileID: 0}
@@ -4571,6 +4575,10 @@ PrefabInstance:
     - target: {fileID: 3479580130509039660, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6712406930625719465, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
+      propertyPath: dashSpeed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6712406930625719465, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
       propertyPath: collisionOffset
@@ -4603,6 +4611,10 @@ PrefabInstance:
     - target: {fileID: 6716859417591442772, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
       propertyPath: m_Offset.y
       value: -0.07452536
+      objectReference: {fileID: 0}
+    - target: {fileID: 8001503567433522201, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8440205955935614005, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
       propertyPath: m_LocalPosition.x

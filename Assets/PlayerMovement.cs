@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public ContactFilter2D movementFilter;
     public SwordAttack swordAttack;
     public DashAttack dashAttack;
+    public float dashSpeed = 30f;
+
     
 
     Vector2 movementInput;
@@ -111,11 +113,15 @@ public class PlayerController : MonoBehaviour
 
     public void DashAttack(){
         LockMovement();
-
-        if(spriteRenderer.flipX == true){
+        if (spriteRenderer.flipX == true)
+        {
             dashAttack.AttackLeft();
-        } else {
+            rb.velocity = new Vector2(-dashSpeed, rb.velocity.y);
+        }
+        else
+        {
             dashAttack.AttackRight();
+            rb.velocity = new Vector2(dashSpeed, rb.velocity.y);
         }
     }
 
@@ -127,6 +133,7 @@ public class PlayerController : MonoBehaviour
 
     public void EndDashAttack(){
         UnlockMovement();
+        rb.velocity = Vector2.zero;
         dashAttack.StopAttack();
     }
 

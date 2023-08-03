@@ -7,6 +7,7 @@ public class DashAttack : MonoBehaviour
    public Collider2D dashCollider;
     public float damage = 3;
     Vector2 rightAttackOffset;
+    public float dashDistance = 5.0f; 
     void Start()
     {
        rightAttackOffset = transform.localPosition;
