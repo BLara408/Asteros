@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public SwordAttack swordAttack;
     public DashAttack dashAttack;
     public float dashSpeed = 30f;
+    public float dashDistance = 10f; 
+
 
     
 

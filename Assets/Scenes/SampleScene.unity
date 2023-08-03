@@ -4556,6 +4556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1234280166934238668, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2652746682438432023, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
       propertyPath: dashCollider
       value: 
@@ -4578,7 +4582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6712406930625719465, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
       propertyPath: dashSpeed
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6712406930625719465, guid: be27a0baa6fcbe7498f0a5ec250ee144, type: 3}
       propertyPath: collisionOffset
